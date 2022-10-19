@@ -11,7 +11,8 @@ function tarefas(){
     let atividade = document.getElementById('atividade').value;
     listar.push(atividade);
 
-    for(let tarefa of listar) {
+
+    for(let tarefa of leta) {
         let item = document.createElement("li");
         let texto = document.createTextNode(tarefa + ' - ');
         let botao = document.createElement("button");
