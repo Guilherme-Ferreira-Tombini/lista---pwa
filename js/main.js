@@ -10,9 +10,16 @@ let listar = [];
 function tarefas(){
     let atividade = document.getElementById('atividade').value;
     listar.push(atividade);
-    mostrar()
-}
 
-function mostrar(){
-    
+    for(let tarefa of listar) {
+        let item = document.createElement("li");
+        let texto = document.createTextNode(tarefa + ' - ');
+        let botao = document.createElement("button");
+        botao.innerText = '🗑️';
+          
+        item.appendChild(texto);
+        item.appendChild(botao);
+        lista.appendChild(item);
+    }
+
 }
