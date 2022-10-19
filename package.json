@@ -1,0 +1,15 @@
+{
+  "name": "atividade---guilherme-ferreira-tombini",
+  "version": "1.0.0",
+  "description": "Atividade de lista de atividades",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ."
+  },
+  "author": "Guilherme-Ferreira-Tombini",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
+}
