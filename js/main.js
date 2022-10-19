@@ -10,6 +10,9 @@ let listar = [];
 function tarefas(){
     let atividade = document.getElementById('atividade').value;
     listar.push(atividade);
-    document.getElementById("lista").innerHTML = listar;
-    console.log(listar);
+    mostrar()
+}
+
+function mostrar(){
+    
 }
