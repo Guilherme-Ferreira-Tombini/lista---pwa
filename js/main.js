@@ -12,7 +12,7 @@ function tarefas(){
     listar.push(atividade);
 
     let item = document.createElement("li");
-    let texto = document.createTextNode(listar[listar.length - 1] + ' - ');
+    let texto = document.createTextNode(listar[listar.length - 1]);
     let botao = document.createElement("button");
     botao.innerText = '🗑️';
     botao.onclick = () => {
