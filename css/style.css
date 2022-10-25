@@ -60,6 +60,6 @@ justify-content: space-between;
 li > button{
   width: 30%;
   height: 40px;
-  background-color: red;
-  border: red;
+  background-color: rgb(55, 177, 18);
+  border: rgb(55, 177, 18);
 }

@@ -9,12 +9,14 @@ let listar = [];
 
 function tarefas(){
     let atividade = document.getElementById('atividade').value;
-    listar.push(atividade);
+    let data = document.getElementById('data').value;
+    listar.push(atividade + "  ||  "+ data.split('-').reverse().join('/'));
 
     let item = document.createElement("li");
     let texto = document.createTextNode(listar[listar.length - 1]);
     let botao = document.createElement("button");
-    botao.innerText = '🗑️';
+    botao.innerText = 'Concluir';
+    botao.style.color = 'white';
     botao.onclick = () => {
         item.style.display = "none";
     }
